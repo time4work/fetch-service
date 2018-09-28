@@ -1,0 +1,33 @@
+{
+  "name": "zmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/time4work/fetch-service.git"
+  },
+  "author": "pointer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/time4work/fetch-service/issues"
+  },
+  "homepage": "https://github.com/time4work/fetch-service#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-react-views": "^0.10.5",
+    "mysql2": "^1.6.1",
+    "node-fetch": "^2.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "redis": "^2.8.0",
+    "serve-favicon": "^2.5.0",
+    "zmq": "^2.15.3"
+  }
+}
